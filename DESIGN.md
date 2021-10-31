@@ -1,6 +1,6 @@
 # p2:panda_face: Design & implementation
 
-*Status Quo October 2019: Currently, the p2panda protocol schema and implementations are being designed. This includes deciding on goals, non-goals, requirements and use cases. This document will be updated once this process has been completed.*
+> ⚠️ This document reflects where we started off as p2panda, it shows our motivations and dreams. Since then, p2panda has grown to be [more](https://github.com/p2panda/handbook/) than a software for festivals. Still, we will build this Festival Tool eventually.
 
 ## Overview
 
@@ -29,9 +29,9 @@ This open schema that can be distributed by any kind of client that implements i
 - `authorization` is an `owner` confirming or denying a requested `resource` for an `event`. The policy by which an owner authorizes a resource is up to that owner. P2:panda_face: will initially implement the *first-come-first-served* policy and the *manual confirmation* policy.
 - `festivals` are the nestable contexts that contain resources `resources`, `events` and `authorizations`. They also provide the boundaries for gossip exchange.
 
-![Schema](https://raw.githubusercontent.com/p2panda/design-document/master/images/datatypes.jpg)
+![Schema](https://raw.githubusercontent.com/p2panda/festival-tool/main/images/datatypes.jpg)
 
-![Message feeds](https://raw.githubusercontent.com/p2panda/design-document/master/images/messages.jpg)
+![Message feeds](https://raw.githubusercontent.com/p2panda/festival-tool/main/images/messages.jpg)
 
 ## Architecture
 
@@ -41,7 +41,7 @@ This open schema that can be distributed by any kind of client that implements i
 - p2panda reads and writes messages from the logs and offers a simple web UI (via React) to manage resources and events and the authorizations.
 - An API for resource authorization mechanisms makes authorization pluggable (default is first-come-first-serve but you could think of clicking a reject or confirm button, a telephone interview or having to play a computer game first).
 
-![Authorization](https://raw.githubusercontent.com/p2panda/design-document/master/images/authorization.jpg)
+![Authorization](https://raw.githubusercontent.com/p2panda/festival-tool/main/images/authorization.jpg)
 
 ## Initial Scope and Design Restrictions
 
