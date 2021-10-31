@@ -1,4 +1,4 @@
-# p2:panda_face: Design & implementation
+# p2:panda_face: - Festival Tool Design & implementation
 
 > ⚠️ This document reflects where we started off as p2panda, it shows our motivations and dreams. Since then, p2panda has grown to be [more](https://github.com/p2panda/handbook/) than a software for festivals. Still, we will build this Festival Tool eventually.
 
