@@ -1,5 +1,7 @@
 # p2:panda_face: Ideas
 
+> ⚠️ This document reflects where we started off as p2panda, it shows our motivations and dreams. Since then, p2panda has grown to be [more](https://github.com/p2panda/handbook/) than a software for festivals. Still, we will build this Festival Tool eventually.
+
 These use cases describe how we imagine p2panda to be used. This does not preclude other use cases – on the contrary, our design decisions should allow for flexibility and hackability.
 
 ## Clients
@@ -20,9 +22,9 @@ Using p2p protocol raises many UI/UX questions, here are a few ideas on how to c
 - Indicate the "last active" status of others (not necessarily in time). This can be an indicator on how reliable a peer is.
 - Show to everyone (not only to the organizer) how much an event is confirmed, so you can get a feeling on how realistic it is that this event will take place. This is realized by showing the confirmed state of all the requested event resources. Eg. "The event is 75% confirmed".
 
-![UX ideas](https://raw.githubusercontent.com/p2panda/design-document/master/images/client.jpg)
+![UX ideas](https://raw.githubusercontent.com/p2panda/festival-tool/main/images/client.jpg)
 
-![UX ideas](https://raw.githubusercontent.com/p2panda/design-document/master/images/client-pro.jpg)
+![UX ideas](https://raw.githubusercontent.com/p2panda/festival-tool/main/images/client-pro.jpg)
 
 ## Resources
 
