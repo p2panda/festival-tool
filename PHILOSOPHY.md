@@ -1,4 +1,6 @@
-# p2:panda_face: Philosophy
+# p2:panda_face: - Festival Tool Philosophy
+
+> ⚠️ This document reflects where we started off as p2panda, it shows our motivations and dreams. Since then, p2panda has grown to be [more](https://github.com/p2panda/handbook/) than a software for festivals. Still, we will build this Festival Tool eventually.
 
 - **Offline first:** Data can directly be created as no server has to be requested first. This is interesting for local and global dynamics: A group might be active with p2panda for one week doing something without internet, go back into the city and start to sync with the global space again.
 - **Energy saving:** A bunch of laptops or raspberry PIs needs much less electricity than a server farm.
